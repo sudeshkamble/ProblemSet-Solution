@@ -27,8 +27,8 @@ public class DNF {
                 case 2: temp=nums[mid];
                         nums[mid]=nums[hi];
                         nums[hi]=temp;
-
                         hi--;
+                        break;
             }
         return nums;
     }
