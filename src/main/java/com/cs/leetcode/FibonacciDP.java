@@ -3,8 +3,13 @@ package com.cs.leetcode;
 public class FibonacciDP {
 
     public static void main(String[] args) {
-        //System.out.println(fib(4));
+        System.out.println(fib(10));
         System.out.println(tribonacci(25));
+        System.out.println(climbingsteps(10));
+    }
+
+    private static int climbingsteps(int i) {
+        return fib(i+1);
     }
 
     private static int tribonacci(int n) {
